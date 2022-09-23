@@ -20,11 +20,13 @@ final GoRouter _router = GoRouter(
         GoRoute(
             name: "screenA",
             path: 'screenA',
-            builder: (context, state) => const MyScreen(screenName: "ScreenA")),
+            builder: (context, state) =>
+                const MyScreen(screenName: "Screen A")),
         GoRoute(
             name: "screenB",
             path: 'screenB',
-            builder: (context, state) => const MyScreen(screenName: "ScreenA")),
+            builder: (context, state) =>
+                const MyScreen(screenName: "Screen B")),
       ],
     ),
   ],
