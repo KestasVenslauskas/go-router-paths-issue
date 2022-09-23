@@ -28,5 +28,6 @@ Flutter project to reproduce go_router deep link issue on Android & iOS:
    `xcrun simctl openurl booted myApp://screenA`
 7. App is running with home screen opened.
 
-``Expected behaviour:
+# Expected behaviour:
+
 On steps 5 & 7 it should open "Screen A"
