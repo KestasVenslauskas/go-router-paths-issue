@@ -15,3 +15,5 @@
 
 ``Expected behaviour:
 On step 5 & 7 it should open "Screen A"
+
+We have the same behaviour on Android & iOS
